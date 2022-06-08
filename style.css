@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  background-color: gray;
+  border: 2px;
+}
+
+.about {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+
+  border: 200px;
+}
+
+.class {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  background-color: black;
+  border: 2px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #eee;
+  background-color: #222;
+}
